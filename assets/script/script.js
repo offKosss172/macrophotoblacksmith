@@ -45,25 +45,22 @@ window.onload = function () {
         const name = document.getElementById('nameFormContact').value;
         const phone = document.getElementById('phoneFormContact').value;
         const select = document.getElementById('selectFormContact').value;
-    
-        // Элементы для вывода ошибок
+
         const nameError = document.getElementById('nameError');
         const phoneError = document.getElementById('phoneError');
     
-        // Сброс сообщений об ошибках
         nameError.textContent = '';
         phoneError.textContent = '';
     
         let isValid = true;
     
-        // Валидация поля имени
+
         const namePattern = /^[a-zA-Zа-яА-Я\s]{3,33}$/;
         if (!namePattern.test(name)) {
             nameError.textContent = "Ім'я повинно містити тільки букви";
             isValid = false;
         }
     
-        // Валидация поля телефона
         const phonePattern = /^[0-9+\-\(\)\s]{9,33}$/;
         if (!phonePattern.test(phone)) {
             phoneError.textContent = "Телефон повинен містити тільки цифри";
