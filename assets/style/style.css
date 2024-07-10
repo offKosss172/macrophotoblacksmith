@@ -182,7 +182,7 @@ nav .header_buttons{
     flex-direction: column;
     width: 50%;
 	position: absolute;
-	top: 71%;
+	top: 65%;
     left: 2%;
     z-index: 1;
     animation: slideUp 1s forwards 2.5s;
@@ -209,7 +209,7 @@ nav .header_buttons{
     transition: all .5s ease;
 }
 .first-windows .first-windows_logo-block h1{
-	font-size: 4.6vw;
+	font-size: 4.2vw;
 	font-weight: 700;
 	text-transform: uppercase;
 }
@@ -649,7 +649,7 @@ align-items: center;
     	box-sizing: border-box;
 	}
 	nav .modalUnique a{
-		font-size: 4vw;
+		font-size: 6vw;
 		font-weight: 700;
 		color: #F13F3F;
 		padding:3vw;
@@ -666,7 +666,7 @@ align-items: center;
 		margin: 0;
 	}
 	nav .modalUnique .general-project-menu_header-right a{
-		font-size: 2vw;
+		font-size: 4vw;
 	}
 	nav .modalUnique .general-project-menu_header-right .activ-lengv-btn{
 		color: #9b9b9b
@@ -774,6 +774,17 @@ align-items: center;
 }
 
 @media screen and (max-width: 600px){
+	.wrapper{
+		padding: 0 2vw;
+	}
+	nav .PhotoLab-project-menu .logolab img{
+		width: 40px!important;
+		height: 27px!important;
+	}
+	.our-services .our-services_down-block .down-block-right, .our-cases .info-block-discription,
+	.collaboration-algorithm .collaboration-info-block .info-block-discription {
+		gap: 3.6vw;
+	}
 	.first-windows .first-windows_block-info {
 		width: 100%;
 		flex-direction: column;
@@ -797,22 +808,22 @@ align-items: center;
 		height: 5vw;
 	}
 	.first-windows .first-windows_logo-block h1 {
-		font-size: 7.5vw;
+		font-size: 8vw;
 	}
 	.small-title-text {
-		font-size: 4.5vw;
+		font-size: 5vw;
 	}
 	.xs-title-text{
 		font-size: 2.3vw;;
 		line-height: 2.4vw;
 	}
 	.small-description-text{
-		font-size: 2vw;
-        line-height: 2.2vw;
+		font-size: 2.2vw;
+        line-height: 2.4vw;
 	}
 	.standart-description-text{
-		font-size: 2.8vw;
-        line-height: 3.1vw;
+		font-size: 3vw;
+        line-height: 3.3vw;
 	}
 	.collaboration-algorithm .collaboration-square-block {
 		justify-content: center;
@@ -846,19 +857,19 @@ align-items: center;
 		width: 65vh;
 	}
 	.form-wrapper form .form-input-container input, .form-wrapper form .form-input-container select, .form-wrapper form button {
-		font-size: 2vw;
+		font-size: 2.4vw;
 	}
 	.small-description-text{
-		font-size: 2.3vw;
-        line-height: 2.3vw;
+		font-size: 2.6vw;
+        line-height: 2.8vw;
 	}
 	.xs-title-text{
-		font-size: 2.6vw;;
-		line-height: 2.7vw;
+		font-size: 3vw;;
+		line-height: 3.2vw;
 	}
 	.standart-description-text{
-		font-size: 3.1vw;
-        line-height: 3.6vw;
+		font-size: 3.8vw;
+        line-height: 4vw;
 	}
 	.small-title-text {
 		font-size: 5.5vw;
@@ -867,7 +878,8 @@ align-items: center;
 		font-size: 8.5vw;
 	}
 	.collaboration-algorithm .collaboration-square-block .square-cart {
-        width: 31%;
+        width: 45%;
+		padding: 22vw 1.2vw 1.2vw 1.2vw;
     }
 
 	.wrapper .our-services .our-services_down-block > div {
