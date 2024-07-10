@@ -645,7 +645,7 @@ align-items: center;
 		justify-content: center;
 		background-color: #343a40;
 		justify-content: space-evenly;
-		padding-bottom: 10vw;
+		
     	box-sizing: border-box;
 	}
 	nav .modalUnique a{
