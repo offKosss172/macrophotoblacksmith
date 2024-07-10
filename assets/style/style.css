@@ -109,7 +109,7 @@ nav{
 	padding:0 2%;
 	position: fixed;
     left: 0;
-    top: -6.6vw;
+    top: -100px;
     z-index: 2;
 	box-sizing: border-box;
 	background-color: rgba(52, 58, 64, 0.8);
@@ -639,7 +639,7 @@ align-items: center;
 		display: flex;
 		flex-direction: column;
 		position: fixed;
-		top: -10%;
+		top: 0;
 		left: 0;
 		align-items: center;
 		justify-content: center;
